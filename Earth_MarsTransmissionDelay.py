@@ -9,6 +9,7 @@
 # The program also contains code for displaying useful information about how the time delay changes
 # over time and where the inner planets are in their orbits.
 # Ephemerides are taken from NASA JPL Horizons Telnet interface for Epoch J2000.
+# Code has been ported to Python from an OpenGL model solar system implimntation by same author.
 
 import numpy as np
 import math 
