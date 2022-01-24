@@ -1,3 +1,14 @@
+#Author: KC Shasteen
+#Title: Earth-Mars Transmission Delay program
+#Date: 7/18/2021
+#Purpose: This program contains functions meant to be used on an email sever for a Mars analog.  
+# These functions will allow the server to calculate the Earth-Mars communications delay for any given 
+# point in a hypothetical mission context.  This delay can then be added to a message before delevery.
+# This will allow the server to more realistically approximate the experience of communicating with
+# Earth from Mars while inside a Mars analogue base.
+# The program also contains code for displaying useful information about how the time delay changes
+# over time and where the inner planets are in their orbits.
+
 import numpy as np
 import math 
 import matplotlib.pyplot as plt
