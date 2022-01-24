@@ -8,6 +8,7 @@
 # Earth from Mars while inside a Mars analogue base.
 # The program also contains code for displaying useful information about how the time delay changes
 # over time and where the inner planets are in their orbits.
+# Ephemerides are taken from NASA JPL Horizons Telnet interface for Epoch J2000.
 
 import numpy as np
 import math 
